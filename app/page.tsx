@@ -33,7 +33,6 @@ export default function App() {
   }
 
   function deleteTodo(id: string) {
-    console.log("Deleting todo with id:", id);
     client.models.Todo.delete({
       id,
     });
